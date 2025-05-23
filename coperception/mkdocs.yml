@@ -1,0 +1,24 @@
+site_name: CoPerception
+
+theme:
+  name: readthedocs
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+  - getting started:
+    - index.md
+    - getting_started/installation.md
+    - Github Repo: https://github.com/coperception/coperception
+  - tools:
+    - tools/index.md
+    - tools/det.md
+    - tools/seg.md
+    - tools/track.md
+  - datasets:
+    - datasets/v2x_sim.md
+  - visualization:
+    - visualization/basic_visualization.md
+    - visualization/advanced_visualization.md
