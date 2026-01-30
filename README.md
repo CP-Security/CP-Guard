@@ -19,7 +19,7 @@
 ## 📝 Abstract
 
 Collaborative Perception (CP) has shown a promising technique for autonomous driving, where multiple connected and autonomous vehicles (CAVs) share their perception information to enhance the overall perception performance and expand the perception range. However, in CP, ego CAV needs to receive messages from the collaborators, which makes it easy to be attacked by malicious agents. For example, a malicious agent can send harmful information to the ego CAV to mislead it. 
-To address this critical issue, we propose a novel method, CP-Guard, a tailored defense mechanism for CP that can be deployed by each agent to accurately detect and eliminate malicious agents in its collaboration network. Our key idea is that CP will lead to a consensus rather than a conflict against the ego CAV's perception results. Based on this idea:
+To address this critical issue, we propose a novel method, CP-Guard, a tailored defense mechanism for CP that can be deployed by each agent to accurately detect and eliminate malicious agents in its collaboration network. Our key idea is that CP will lead to a consensus rather than a conflict against the ego CAV's perception results. Based on this idea: 
 
 - [x] We develop a probability-agnostic sample consensus (PASAC) method that can effectively sample a subset of the collaborators and verify the consensus without prior probabilities of malicious agents
 - [x] We design a collaborative consistency loss (CCLoss) to calculate the discrepancy between the ego CAV and the collaborators
